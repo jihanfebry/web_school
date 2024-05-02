@@ -1,0 +1,158 @@
+body{
+    background-color: #f5d694;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 16px 32px;
+    overflow: hidden;
+  }
+    
+  li {
+    float: right;
+  }
+  
+  .logo {
+    float: left;
+  }
+    
+  li a {
+    display: block;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .logo-text{
+    font-style: italic;
+    font-size: 20px;
+  }
+    
+  li a:hover:not(.logo-text) {
+    color: #1f12d6;
+  }
+    
+  .active {
+    color: #004258;
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .logo {float: none;}
+  }
+
+  img { 
+    width:100%;
+    margin-top: 40px;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .content1 {
+      display:grid;
+      grid-template-columns: 66% auto;
+      padding: 0 48px 48px 48px;
+  }
+  
+  .text1 {
+    margin: 0 64px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  #tag {
+    margin-top: 0;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+  }
+
+  .responsive {
+    padding: 0 8px;
+    width: 24.99999%;
+  }
+
+  /* Reset some default styles */
+
+
+/* Container styling */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Footer styling */
+.footer-main {
+  background-color: orange;
+  color: black;
+  padding: 20px 0;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer sections styling */
+.footer-1, .footer-2, .footer-3 {
+  flex: 1;
+  margin-left: 90px;
+}
+
+/* Heading styling */
+.footer-1 h4, .footer-2 h4, .footer-3 h4 {
+  color: black; /* Yellow color, you can change it */
+}
+
+/* Paragraph styling */
+.footer-1 p, .footer-2 p, .footer-3 p {
+  margin-bottom: 10px;
+}
+
+/* Address styling */
+.footer-2 p {
+  font-style: italic;
+}
+
+/* Social media styling */
+.footer-3 p {
+  font-weight: bold;
+}
+
+/* Responsive styling - adjust as needed */
+@media (max-width: 768px) {
+  .footer-grid {
+      flex-direction: column;
+  }
+
+  .footer-1, .footer-2, .footer-3 {
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+}
+
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  
